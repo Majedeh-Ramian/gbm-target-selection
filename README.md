@@ -8,12 +8,14 @@ Rank 7 candidate targets (EGFR, PDGFRA, CDK4, CDK6, MET, MDM2, PIK3CA) for adult
 
 ## Data sources
 | Evidence | Source | How obtained |
-Result files are in the repository root (the notebook reads them from a results/ folder when run locally).
+|---|---|---|
 | Structures | RCSB PDB, human, resolution < 3 Å | RCSB Search API (counts change over time; run in Nov 2026) |
 | Alteration frequency | cBioPortal, GBM TCGA PanCancer Atlas (n=378, samples with mutation and CNA data) | Read from the web interface, entered as constants |
 | Overall survival | cBioPortal, same study, single-gene queries, log-rank | Read from the web interface, entered as constants |
 | Dependency | DepMap Public 26Q3, CRISPR Chronos | **Computed** from CRISPRGeneEffect.csv, Model.csv |
 | TP53 status | DepMap 26Q3, OmicsSomaticMutations.csv | **Computed** |
+
+Result files are in the repository root (the notebook reads them from a `results/` folder when run locally).
 
 DepMap files are not included (large). Download them from the DepMap portal (release 26Q3) into `data/`.
 
