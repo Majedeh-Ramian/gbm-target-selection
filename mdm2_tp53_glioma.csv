@@ -1,0 +1,107 @@
+ModelID,CellLineName,OncotreeSubtype,MDM2 (4193),has_mutation_data,tp53_damaging,tp53_any,mdm2_dependent
+ACH-000137,8-MG-BA,"Glioblastoma, IDH-Wildtype",-0.3625136482252611,True,True,True,False
+ACH-000437,SW 1088,"Astrocytoma, IDH-Mutant",-0.4739863848183366,True,True,True,False
+ACH-000558,A-172,"Glioblastoma, IDH-Wildtype",-1.6068426873817183,True,False,False,True
+ACH-000591,LN-235,"Astrocytoma, IDH-Mutant",-0.2078178046762693,True,True,True,False
+ACH-000760,LNZ308,"Glioblastoma, IDH-Wildtype",-0.3388987860186644,True,False,False,False
+ACH-000887,SF-172,"Glioblastoma, IDH-Wildtype",-0.4379923329372971,True,True,True,False
+ACH-001172,U-251 MG DM,"Astrocytoma, IDH-Mutant",-0.2451252118527375,True,True,True,False
+ACH-001608,NP 2,"Glioblastoma, IDH-Wildtype",-0.1926257269689045,True,True,True,False
+ACH-001610,NP 5,"Glioblastoma, IDH-Wildtype",-0.1488595340660607,True,True,True,False
+ACH-001611,NP 8,"Glioblastoma, IDH-Wildtype",-0.2904948481527259,True,False,False,False
+ACH-002230,D-542MG,"Glioblastoma, IDH-Wildtype",-0.8210950209691468,True,True,True,False
+ACH-002410,CCLF_NEURO_0007_T,"Glioblastoma, IDH-Wildtype",-1.3158526805752513,True,False,False,True
+ACH-002822,BT147,"Glioblastoma, IDH-Wildtype",-0.9814580877172032,True,False,False,False
+ACH-001605,no.10,"Glioblastoma, IDH-Wildtype",-0.413064399444459,True,True,True,False
+ACH-002506,CCLF_NEURO_0039_T,"Glioblastoma, IDH-Wildtype",-0.0400965842692881,True,True,True,False
+ACH-002821,BT286,"Glioblastoma, IDH-Wildtype",-1.8365884442270164,True,False,False,True
+ACH-000200,NMC-G1,"Glioblastoma, IDH-Wildtype",-1.080156187900338,True,False,False,True
+ACH-000323,42-MG-BA,"Glioblastoma, IDH-Wildtype",-0.3183088300205771,True,True,True,False
+ACH-000479,KNS-81,"Glioblastoma, IDH-Wildtype",-1.0927470967086663,True,False,False,True
+ACH-000623,SNU-201,"Glioblastoma, IDH-Wildtype",-0.3796491882911387,True,True,True,False
+ACH-000863,DBTRG-05MG,"Glioblastoma, IDH-Wildtype",-1.6679939386650902,True,False,False,True
+ACH-001126,MOG-G-UVW,"Astrocytoma, IDH-Mutant",-0.2827695332321414,True,True,True,False
+ACH-001606,no.11,"Glioblastoma, IDH-Wildtype",-0.5628541737246345,True,True,True,False
+ACH-002811,BT112,"Glioblastoma, IDH-Wildtype",-1.5667400533620968,True,False,False,True
+ACH-000469,YH-13,"Glioblastoma, IDH-Wildtype",-0.3583785340321271,True,True,True,False
+ACH-001624,Onda 9,"Glioblastoma, IDH-Wildtype",-1.719568258936663,True,False,False,True
+ACH-002228,D-423MG,"Glioblastoma, IDH-Wildtype",-0.2807487891674115,True,True,True,False
+ACH-002414,CCLF_NEURO_0011_T,"Glioblastoma, IDH-Wildtype",-1.745385720078798,True,False,False,True
+ACH-002415,BT-987,"Glioblastoma, IDH-Wildtype",-0.5196872477234888,True,False,False,False
+ACH-002681,538-MG-BA,"Glioblastoma, IDH-Wildtype",-0.3247902244770015,True,True,True,False
+ACH-002715,BT422,"Glioblastoma, IDH-Wildtype",-0.0679612160510745,True,True,True,False
+ACH-002810,BT228,"Glioblastoma, IDH-Wildtype",-1.754728335898192,True,False,False,True
+ACH-002849,BT239,"Glioblastoma, IDH-Wildtype",-1.914505695687942,True,False,False,True
+ACH-002863,BT519,"Glioblastoma, IDH-Wildtype",-0.395452407122172,True,True,True,False
+ACH-000455,LN-428,"Glioblastoma, IDH-Wildtype",-0.3415022424947921,True,True,True,False
+ACH-000673,LN-443,"Glioblastoma, IDH-Wildtype",-0.5446894766222041,True,True,True,False
+ACH-001622,Onda 7,"Glioblastoma, IDH-Wildtype",-1.911326918496344,True,False,False,True
+ACH-002806,TB096,"Astrocytoma, IDH-Mutant",-0.4955875826384166,True,True,True,False
+ACH-002814,BT224,"Glioblastoma, IDH-Wildtype",-0.2071415278100694,True,True,True,False
+ACH-002907,BT702,"Glioblastoma, IDH-Wildtype",0.0030281659447961,True,True,True,False
+ACH-003167,CCLF_NEURO_0091_T,"Glioblastoma, IDH-Wildtype",-0.1214426922752349,True,True,True,False
+ACH-000215,LN382,"Glioblastoma, IDH-Wildtype",-0.5972695023720214,True,True,True,False
+ACH-000445,KNS-60,"Glioblastoma, IDH-Wildtype",-0.4290463243608122,True,True,True,False
+ACH-000595,LN-229,"Glioblastoma, IDH-Wildtype",-1.616661710006095,True,False,True,True
+ACH-001329,ANGM-CSS,"Glioblastoma, IDH-Wildtype",-2.057001500703397,True,False,False,True
+ACH-002229,D-502MG,"Glioblastoma, IDH-Wildtype",-2.456534391474767,True,False,False,True
+ACH-003323,BT231,"Glioblastoma, IDH-Wildtype",-0.0515470600767296,True,True,True,False
+ACH-003535,BT189,"Glioblastoma, IDH-Wildtype",-2.740963156971287,True,False,False,True
+ACH-000152,M059K,"Glioblastoma, IDH-Wildtype",-0.4648001913613899,True,True,True,False
+ACH-000269,AM-38,"Glioblastoma, IDH-Wildtype",-1.583358188154069,True,False,False,True
+ACH-000819,LN-18,"Glioblastoma, IDH-Wildtype",-0.1963409559967326,True,True,True,False
+ACH-002411,CCLF_NEURO_0008_T,"Glioblastoma, IDH-Wildtype",-2.081399197610744,True,False,False,True
+ACH-003209,BT139,"Glioblastoma, IDH-Wildtype",-1.6234131175619155,True,False,False,True
+ACH-000368,SNU-1105,"Glioblastoma, IDH-Wildtype",-0.234818258799392,True,True,True,False
+ACH-002418,CCLF_NEURO_0017_T,"Glioblastoma, IDH-Wildtype",-1.7086555102838243,True,False,False,True
+ACH-002456,CCLF_NEURO_0035_T,"Glioblastoma, IDH-Wildtype",-0.0194340744768254,True,True,True,False
+ACH-002813,BT182,"Glioblastoma, IDH-Wildtype",-2.013711014864867,True,False,False,True
+ACH-002816,BT179,"Glioblastoma, IDH-Wildtype",0.4090980011692561,True,True,True,False
+ACH-000098,GAMG,"Glioblastoma, IDH-Wildtype",-0.4634472243139109,True,True,True,False
+ACH-000231,KALS-1,"Glioblastoma, IDH-Wildtype",-0.5411128982195523,True,True,True,False
+ACH-000329,CCF-STTG1,"Astrocytoma, IDH-Mutant",-1.5842664561903557,True,False,False,True
+ACH-000464,CAS-1,"Glioblastoma, IDH-Wildtype",-0.5334068326230251,True,True,True,False
+ACH-000571,T98G,"Glioblastoma, IDH-Wildtype",-0.2541551821943292,True,True,True,False
+ACH-000609,SF126,"Glioblastoma, IDH-Wildtype",-0.5787955569714285,True,False,False,False
+ACH-000634,LN-340,"Glioblastoma, IDH-Wildtype",-0.3156915345765135,True,True,True,False
+ACH-000738,GB-1,"Glioblastoma, IDH-Wildtype",-0.3441792482192969,True,True,True,False
+ACH-001609,NP 3,"Glioblastoma, IDH-Wildtype",-0.3728688705565515,True,True,True,False
+ACH-002257,KINGS-1,"Astrocytoma, IDH-Mutant, Grade 2",-0.1600383813874067,True,True,True,False
+ACH-002680,170-MG-BA,"Glioblastoma, IDH-Wildtype",-0.3135916839006581,True,True,True,False
+ACH-002824,BT320,"Glioblastoma, IDH-Wildtype",-0.4301984662677824,True,False,False,False
+ACH-000075,U-87 MG,"Glioblastoma, IDH-Wildtype",-1.990799524155446,True,False,False,True
+ACH-000631,KS-1,"Glioblastoma, IDH-Wildtype",-1.003423944616951,True,False,False,True
+ACH-002449,CCLF_NEURO_0021_T,"Glioblastoma, IDH-Wildtype",0.0077522149360874,True,True,True,False
+ACH-002817,BT145,"Glioblastoma, IDH-Wildtype",-1.7398003467793552,True,False,False,True
+ACH-002826,BT187,"Glioblastoma, IDH-Wildtype",0.1008637153259562,True,True,True,False
+ACH-002890,BT328,"Glioblastoma, IDH-Wildtype",0.1199987289696471,True,True,True,False
+ACH-003636,G115_PDXCL,"Glioblastoma, IDH-Wildtype",-1.1045727822069538,True,False,False,True
+ACH-000036,U343,"Glioblastoma, IDH-Wildtype",-1.4601193308410625,True,False,False,True
+ACH-000128,LN-319,"Astrocytoma, IDH-Mutant",-0.1603182270156591,True,True,True,False
+ACH-000370,SNU-626,"Glioblastoma, IDH-Wildtype",-0.4707162404178149,True,True,True,False
+ACH-002269,LNZTA3WT4,"Astrocytoma, IDH-Mutant",-0.5384767327199903,True,True,True,False
+ACH-002408,BT-632,"Glioblastoma, IDH-Wildtype",-0.3521229569566975,True,True,True,False
+ACH-002818,BT164,"Glioblastoma, IDH-Wildtype",0.136291296753149,True,True,True,False
+ACH-002862,BT574,"Glioblastoma, IDH-Wildtype",0.2329869118794418,True,False,False,False
+ACH-000040,U-118 MG,"Astrocytoma, IDH-Mutant",-0.3462300143970275,True,True,True,False
+ACH-000067,Hs 683,Adult-Type Diffuse Glioma,-0.3506007412286692,True,True,True,False
+ACH-000208,U-178,"Astrocytoma, IDH-Mutant",-0.4991007140046168,True,True,True,False
+ACH-000232,U-251 MG,"Astrocytoma, IDH-Mutant",-0.4419769283684955,True,True,True,False
+ACH-000244,DK-MG,"Glioblastoma, IDH-Wildtype",-1.5060880863479988,True,False,False,True
+ACH-000504,SNB75,"Glioblastoma, IDH-Wildtype",-0.4896089622314089,True,True,True,False
+ACH-000570,YKG1,"Glioblastoma, IDH-Wildtype",-0.1404299266351723,True,True,True,False
+ACH-000592,TM-31,"Astrocytoma, IDH-Mutant",-0.2618920287108214,True,True,True,False
+ACH-000655,SF268,"Astrocytoma, IDH-Mutant",-0.4014883166021084,True,True,True,False
+ACH-001016,Becker,"Astrocytoma, IDH-Mutant",-0.7024431887696285,True,True,True,False
+ACH-002714,CCLF_NEURO_0055_T,"Glioblastoma, IDH-Wildtype",-0.2683254295697876,True,False,False,False
+ACH-002828,BT359,"Glioblastoma, IDH-Wildtype",-0.0311865036322553,True,True,True,False
+ACH-003169,CCLF_NEURO_0115_T,"Glioblastoma, IDH-Wildtype",-0.1991549844773257,True,True,True,False
+ACH-003203,BT1718,"Glioblastoma, IDH-Wildtype",-2.1634066545901622,True,False,False,True
+ACH-000376,SF-295,"Glioblastoma, IDH-Wildtype",-0.2804983615949995,True,True,True,False
+ACH-000389,H4,"Astrocytoma, IDH-Mutant",-1.3603691132735842,True,False,False,True
+ACH-000807,SNU-738,Adult-Type Diffuse Glioma,-0.3138372045378177,True,True,True,False
+ACH-002304,SK-MG-1,"Astrocytoma, IDH-Mutant",-0.3082670190616726,True,True,True,False
+ACH-002893,BT444,"Glioblastoma, IDH-Wildtype",-0.3697938426776341,True,True,True,False
+ACH-003229,BT142 mut/-,"Astrocytoma, IDH-Mutant, Grade 3",-0.1377349277961826,True,True,True,False
+ACH-003230,BT88,"Oligodendroglioma, IDH-mutant, and 1p/19q-Codeleted",-2.2160160546164973,True,True,True,True
+ACH-003565,BT1680,"Glioblastoma, IDH-Wildtype",-0.0769725818988814,True,True,True,False

@@ -1,0 +1,8 @@
+gene,s_structure,s_alteration,s_survival,s_dependency,total_score
+MDM2,2,1,0,2,5
+PIK3CA,2,1,0,1,4
+EGFR,2,2,0,0,4
+MET,2,0,0,1,3
+PDGFRA,1,1,0,1,3
+CDK6,1,0,0,2,3
+CDK4,0,1,0,1,2
