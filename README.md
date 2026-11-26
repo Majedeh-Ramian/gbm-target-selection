@@ -69,3 +69,51 @@ Reference inhibitors (ChEMBL/PDB), re-docking for MDM2 and EGFR, screening and A
 
 ## Environment
 Python 3.14, pandas, numpy, matplotlib, seaborn, lifelines, scipy, statsmodels, jupyter.
+## Step 2: Reference inhibitors for MDM2 and EGFR (ChEMBL 37)
+
+Notebook: `02_reference_inhibitors.ipynb`
+
+### Data source
+- ChEMBL release 37 (SQLite dump, `chembl_37_sqlite.tar.gz`, file dated 2026-05-29).
+- The database file (~28 GB extracted) is not included. To reproduce, download it from the ChEMBL FTP site and change `db_path` in the notebook.
+- Targets: MDM2 (`CHEMBL5023`) and EGFR (`CHEMBL203`), both SINGLE PROTEIN entries.
+
+### Why a local database
+The ChEMBL web API returned repeated HTTP 500 errors for the full activity query, so only a partial download (460 of 6,340 rows) was possible. That partial data was discarded. All results here come from the SQLite dump. The row count for MDM2 from the local database (6,340) matched the count reported by the API.
+
+### Query filters
+`standard_type` in (IC50, Ki, Kd), `standard_relation` = "=", `standard_units` = "nM", `assay_type` = "B" (binding assays only).
+
+### Cleaning rules (applied identically to both targets)
+1. Remove rows without a SMILES.
+2. Remove rows with a ChEMBL `data_validity_comment` (e.g. "Outside typical range").
+3. Remove rows flagged `potential_duplicate`.
+4. Remove rows with an empty `standard_value` (one EGFR row).
+
+| Step | MDM2 rows | EGFR rows |
+|---|---|---|
+| Raw query | 6,340 | 19,826 |
+| After removing no-SMILES | 6,336 | 19,809 |
+| After removing validity warnings | 6,300 | 19,528 |
+| After removing potential duplicates | 5,878 | 17,299 |
+| After removing empty value | 5,878 | 17,298 |
+| Unique molecules | 4,785 | 10,691 |
+
+pActivity = 9 − log10(value in nM). It agreed with ChEMBL's own `pchembl_value` to within 0.0055 for all rows in both targets.
+
+### Reference sets
+- **Full actives:** median pActivity per molecule ≥ 7 (MDM2: 3,240; EGFR: 5,499).
+- **Strict actives:** full actives with at least 2 measurements and spread (max − min pActivity) ≤ 1 (MDM2: 441; EGFR: 1,054).
+- **Known drugs** are kept separately as positive controls (see `*_known_drugs_check.csv`).
+
+### Findings and limitations
+- The thresholds (cleaning rules, pActivity ≥ 7, n ≥ 2, spread ≤ 1) were chosen after looking at the data, not before.
+- Measurements disagree a lot between assays: 28% of MDM2 molecules and 42% of EGFR molecules with ≥ 2 measurements have a spread > 1 pActivity unit. For example, gefitinib spans 4.6 to 10.0 across ten different assays at its extremes.
+- The strict set excludes all known drugs checked (nutlin-3, idasanutlin, navtemadlin, milademetan, erlotinib, gefitinib, afatinib, osimertinib), because these have wide spread or only one measurement. It is therefore not a good reference set on its own.
+- Most molecules have a single measurement (MDM2: 82%; EGFR: 69%).
+- IC50, Ki and Kd are pooled. IC50 depends on assay conditions.
+- The EGFR data mixes wild-type and mutant assays (partially flagged by ChEMBL `variant_id`) and possibly other differences I did not investigate. Mutation status matters for GBM, so this needs care.
+- Median pActivity is high (MDM2 7.79, EGFR 7.15), which reflects publication bias toward optimized compounds.
+- 23 EGFR rows have pActivity ≥ 10.5 and were kept; I could not verify them.
+- Some salt forms (milademetan tosylate, osimertinib mesylate) have no data under their own IDs, so I did not merge salts with parent compounds.
+- Not done yet: PDB ligands, re-docking, screening, ADMET.
